@@ -1,16 +1,17 @@
 import './App.css';
-import navbar from "./components/navbar";
-import maintext from "./components/maintext";
-import button from "./components/button";
-import gallery from "./components/gallery";
+import {Logo, Menu} from "./components/navbar";
+import Maintext from "./components/maintext";
+import Button from "./components/button";
+import Gallery from "./components/gallery";
 
 function App() {
   return (
     <div className="App">
-      <navbar />
-      <maintext />
-      <button />
-      <gallery />
+      <Logo />
+      <Menu />
+      <Maintext />
+      <Button />
+      <Gallery />
     </div>
   );
 }
