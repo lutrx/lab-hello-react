@@ -7,11 +7,17 @@ import Gallery from "./components/gallery";
 function App() {
   return (
     <div className="App">
-      <Logo />
-      <Menu />
+    <div className="Toparea">
+      <nav>
+        <Logo />
+        <Menu />
+      </nav>
       <Maintext />
       <Button />
+    </div>
+    <div className="Bottomarea">
       <Gallery />
+    </div>
     </div>
   );
 }

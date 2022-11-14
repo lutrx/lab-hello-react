@@ -1,5 +1,85 @@
+body {
+  margin: 1%
+}
+
 .App {
   text-align: center;
+}
+
+.Toparea {
+  background-color: #1f2535;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.Toparea > nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3%;;
+}
+
+.maintext {
+  max-width: 50%;
+  text-align: left;
+  padding-left: 3%;
+}
+
+.maintext > h1 {
+  font-size: 6rem;
+}
+
+.maintext > p {
+  font-size: 2rem;
+  text-align: left;
+  max-width: 80%;
+}
+
+.btn {
+  margin-left: 3%;
+  width: 13%;
+  height: 70px;
+  background-color: white;
+  color:  #1f2535;
+  font-size: 25px;
+  font-weight: bolder;
+  border-style: none;
+  border-radius: 5px;
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+
+.Bottomarea {
+  max-width: 100%;
+}
+
+#gallery {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 120px;
+  margin-bottom: 120px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.inline {
+  max-width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.inline > h2 {
+  font-size: 3rem;
+}
+
+.inline > p {
+  text-align: left;
+  font-size: 2rem;
 }
 
 .App-logo {
